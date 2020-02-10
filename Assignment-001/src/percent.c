@@ -1,4 +1,3 @@
-#include "../include/function.h"
 float percent(float a,char op,float b)
 {
     
