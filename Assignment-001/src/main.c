@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include "function.h"
 #include "../include/function.h"
-//#include "header.h"
 
 
 int main(void)
