@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+h1{
+  color: rgb(0,0,0);
+}
+
+h3{
+ text-align : left;
+ vertical-align : top;
+}
+div {
+  color: rgb(201, 76, 76);
+}
