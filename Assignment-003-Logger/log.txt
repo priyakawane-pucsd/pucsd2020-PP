@@ -1,0 +1,6 @@
+Fri Mar 13 13:08:19 2020 [main.c][line: 10] Hello
+Fri Mar 13 13:08:19 2020 [main.c][line: 11] Welcome to pucsd!!!
+Fri Mar 13 13:08:19 2020 [main.c][line: 10] Hello
+Fri Mar 13 13:08:19 2020 [main.c][line: 11] Welcome to pucsd!!!
+Fri Mar 13 13:08:19 2020 [main.c][line: 10] Hello
+Fri Mar 13 13:08:19 2020 [main.c][line: 11] Welcome to pucsd!!!
