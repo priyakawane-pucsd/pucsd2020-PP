@@ -1,0 +1,2 @@
+By using go laguage code perform following challenge
+Challenge#2 : "Run the service and perform get/put/update/delete opeation on user object" .
