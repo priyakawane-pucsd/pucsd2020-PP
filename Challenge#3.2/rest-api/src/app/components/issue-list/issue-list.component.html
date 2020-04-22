@@ -1,0 +1,44 @@
+<div class="container wrapper">
+    <div class="row">
+        <!-- Form -->
+        <div class="col-md-12">
+            <h2>Search Record</h2>
+            <form [formGroup]="searchForm" (ngSubmit)="submitForm()" novalidate>
+                <div class="form-group">
+                    <label>By User Id</label>
+                    <input type="text" formControlName="userId" class="form-control" maxlength="20"><br>
+                    <button type="submit" class="btn btn-primary btn-sm" >Search</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-12">
+            <div class="inner">
+                <h3>User Details</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">First name</th>
+                            <th scope="col">Last name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Contact</th>
+           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let issues of  UsersById">
+                       <th scope="row">{{issues.id}}</th>
+                            <td>{{issues.first_name}}</td>
+                            <td>{{issues.last_name}}</td>
+                            <td>{{issues.email}}</td>
+                            <td>{{issues.contact_number}}</td>
+                           
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

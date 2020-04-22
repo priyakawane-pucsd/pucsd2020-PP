@@ -1,0 +1,9 @@
+.spacer {
+	flex: 1 1 auto;
+},
+.vertical-menu {
+    background-color: red !important;
+},
+.mat-sidenav {
+  width: 300px;
+}
