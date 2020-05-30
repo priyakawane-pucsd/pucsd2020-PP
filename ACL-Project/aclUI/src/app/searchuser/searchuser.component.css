@@ -1,0 +1,10 @@
+table.a {
+  table-layout: auto;
+  width: 180px;
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;
+}
+

@@ -1,0 +1,48 @@
+<section>
+  <div class="acl"></div>
+  <div class="acl-button-row">
+    <button mat-button color="accent" routerLink="/users/create">Users</button>
+    <button mat-button color="accent" routerLink="/groups/create">Groups</button>
+    <button mat-button color="accent" routerLink="/directory/create">Directory</button>
+    <button mat-button color="accent" routerLink="/file/create">File</button>
+  </div>
+</section>
+
+<mat-divider></mat-divider>
+<router-outlet></router-outlet>
+
+  <button mat-button color="primary" routerLink="/createuser">Create User</button><br>
+  <button mat-button color="primary" routerLink="/searchuser">Search User</button><br>
+ 
+<!-- <button mat-button color="primary" routerLink="/updateuser">Edit User</button><br>
+  <button mat-button color="primary" routerLink="/deleteuser">delete User</button><br> -->
+
+ 
+<router-outlet></router-outlet>
+<!--
+<div class="col-md-12">  
+  <h2> User Details</h2>  
+  <div class="table-responsive table-container">  
+    <table class="table">  
+      <thead>  
+        <tr>  
+          <th>Id</th>  
+          <th>First Name</th>  
+          <th>Last Name</th>  
+		  <th>Actions</th>
+        </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let usr of user">  
+          <td class="hidden">{{usr.id}}</td>  
+          <td>{{usr.first_name}}</td>  
+          <td>{{usr.last_name}}</td>  
+          <td>  
+            <button (click)="deleteEmp(usr.id)" class="btn btn-info"> Delete</button>  
+            <button (click)="navigateToEditUser(usr.id,usr.first_name,usr.last_name)" style="margin-left: 20px;" class="btn btn-info"> Edit</button>
+          </td>  
+        </tr>  
+      </tbody>  
+    </table>  
+  </div>  
+</div>  -->
