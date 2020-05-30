@@ -1,0 +1,30 @@
+<div class="col-md-12">  
+  <h2> User Details</h2>  
+  <div class="table-responsive table-container">  
+    <table class="table">  
+      <thead>  
+        <tr>  
+          <th>Group Id</th> 
+          <th>User Id</th>  
+		  <th>Actions</th>
+        </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let usr of user">  
+          <td class="hidden">{{usr[0]}}</td>  
+          <td>{{usr[1]}}</td>  
+   	      <td>{{usr[2]}}</td>  
+          <td>  
+			<!--<section>
+            <button (click)="deleteEmp(usr[0])" class="btn btn-info"> Delete</button> 
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button class="btn btn-info" routerLink="/updateuser"> Update</button> 
+			</section>-->
+			
+          </td>  
+        </tr>  
+      </tbody>  
+    </table>  
+  </div>  
+</div> 
+<router-outlet></router-outlet>
