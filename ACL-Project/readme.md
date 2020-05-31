@@ -1,4 +1,4 @@
-## This is the 'Access control list'(ACL) project with differe fuctionality
+## This is the 'Access control list'(ACL) project with different fuctionality
 
 ## To run this project run golang code which is in ---->
 	1. goto directory -------------------->  cd workspace/src/github.com/pucsd2020-pp/rest-api 
